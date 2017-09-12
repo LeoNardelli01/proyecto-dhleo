@@ -9,10 +9,12 @@
 
 /* NOTE: footer */
 
+
+
 footer{
 
 }
-footer .wrapper{
+footer .footer-wrapper{
    padding: 48px 16px 32px 16px;
    background-color: #484848;
 
@@ -31,12 +33,12 @@ div.links-terminos {
 
 }
 
-div.links-terminos a{
-   margin: 0px 30px;
-   color: white;
-   text-decoration: none;
-   font-size: 16px;
-
+div.links-terminos a {
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
 }
 
 div.redes-sociales{
@@ -122,15 +124,23 @@ div.columnas-footer ul li:active{
     transform: scale(1.5,1.5);
 }
 
-div.wrapper p{
+div.footer-wrapper p{
    margin-top: 10px;
    text-align: center;
    color: rgb(106, 106, 106);
 
 }
 
+footer p{
+   margin: 10px 0 10px 0;
+}
 footer p a{
    text-decoration: none;
    color: #B9A88E;
+
+}
+
+
+@media (max-width: ) {
 
 }
