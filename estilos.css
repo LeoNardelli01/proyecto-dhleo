@@ -78,6 +78,7 @@ div.columnas-footer ul{
 }
 div.columnas-footer span h3{
    margin: 20px;
+   font-size: 30px;
 }
 div.col-izquierda{
 
@@ -91,7 +92,8 @@ div.col-derecha{
 
 div.columnas-footer ul li{
    padding: 10px;
-   transition: 0.3s;
+   transition: 0.5s;
+   font-size: 20px;
 }
 
 
@@ -114,14 +116,21 @@ div.columnas-footer span h3{
 
  div.columnas-footer ul li{
     color: rgb(166, 166, 166);
-
+    transition: 0.3s;
 }
-footer p{
+div.columnas-footer ul li:active{
+    transform: scale(1.5,1.5);
+}
+
+div.wrapper p{
    margin-top: 10px;
    text-align: center;
+   color: rgb(106, 106, 106);
+
 }
 
 footer p a{
    text-decoration: none;
    color: #B9A88E;
+
 }
