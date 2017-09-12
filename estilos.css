@@ -21,7 +21,7 @@ footer .footer-wrapper{
 }
 
 div.cabecera img.logo{
-   width: 40%;
+   width: 210px;
    position: relative;
    left: 50%;
    transform: translate(-50%);
@@ -40,6 +40,7 @@ div.links-terminos a {
     font-size: 14px;
     text-align: center;
 }
+
 
 div.redes-sociales{
    width: 100%;
@@ -64,7 +65,7 @@ div.redes-sociales li a img {
 }
 
 div.redes-sociales li a img:active{
-   transform: scale(1.3,1.3);
+   transform: scale(0.8,0.8);
 }
 
 
@@ -74,32 +75,34 @@ div.columnas-footer{
    /*display: flex; */
    margin-top: 30px;
 }
-div.columnas-footer ul{
-   list-style: none;
-
-}
 div.columnas-footer span h3{
    margin: 20px;
    font-size: 30px;
 }
-div.col-izquierda{
+div.columnas-footer ul{
+   list-style: none;
+
+}
+div.columnas-footer ul li{
+   padding: 10px;
+   font-size: 20px;
+
+   transition: 0.3s;
+}
+div.columnas-footer ul li a{
+   color: rgb(166, 166, 166);
+   text-decoration: none;
+
+}
+article.col-izquierda{
 
    text-align: center;
    font-family: sans-serif;
 }
-div.col-derecha{
+article.col-derecha{
 
    text-align: center;
 }
-
-div.columnas-footer ul li{
-   padding: 10px;
-   transition: 0.5s;
-   font-size: 20px;
-}
-
-
-
 
 hr.linea-footer {
    margin-top: 20px;
@@ -107,6 +110,7 @@ hr.linea-footer {
    position: relative;
    left: 50%;
    transform: translate(-50%);
+
 
 }
 
@@ -116,13 +120,10 @@ div.columnas-footer span h3{
    font-weight: bold;
 }
 
- div.columnas-footer ul li{
-    color: rgb(166, 166, 166);
-    transition: 0.3s;
-}
 div.columnas-footer ul li:active{
     transform: scale(1.5,1.5);
 }
+
 
 div.footer-wrapper p{
    margin-top: 10px;
@@ -131,9 +132,7 @@ div.footer-wrapper p{
 
 }
 
-footer p{
-   margin: 10px 0 10px 0;
-}
+
 footer p a{
    text-decoration: none;
    color: #B9A88E;
@@ -141,6 +140,15 @@ footer p a{
 }
 
 
-@media (max-width: ) {
+@media (min-width: 460px) {
+   div.columnas-footer{
+      display: flex;
+   }
+   .col-derecha, .col-izquierda{
+      width: 50%;
+   }
 
+   hr.linea-footer{
+      width: 65%;
+   }
 }
